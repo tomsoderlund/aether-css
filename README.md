@@ -33,4 +33,4 @@ Demo: https://tomsoderlund.github.io/aether-css/
 
 ## Import in JavaScript
 
-    import '../node_modules/aether-css/aether.min.css'
+    import '../node_modules/aether-css/dist/aether.min.css'
