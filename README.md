@@ -25,7 +25,7 @@ Design goals:
 
 ## Install
 
-    yarn add aether-css
+    yarn add aether-css-framework
 
 
 ## Import in JavaScript
