@@ -360,20 +360,20 @@ input[type="checkbox"]:first-child {
 /* Table */
 table {
   border-collapse: collapse;
+  border: 1px solid rgba(0, 0, 0, 0.10);
 }
 
 td, th {
-  border: 1px solid #ddd;
   padding: 0.5em;
   vertical-align: top;
 }
 
 thead tr {
-  background-color: #ccc;
+  background-color: rgba(0, 0, 0, 0.10);
 }
 
 tr:nth-child(2n+0) {
-  background-color: #eee;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 /* Horisontal rule */
