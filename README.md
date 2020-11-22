@@ -9,12 +9,12 @@ Demo: https://tomsoderlund.github.io/aether-css/
 ## Design goals
 
 - A good starting point for any web/mobile/PWA project.
-- Use the [Three Zone Navigation System](https://medium.com/@tomsoderlund/three-zone-navigation-system-45f20d08bed4).
+- Avoid weird classes* as much as possible, just use element names.
 - Easy to customize (“themeable”). Examples:
   - Change the color of button, and hover states are automatically updated (they use `filter`).
   - Borders use transparency.
+- Use the [Three Zone Navigation System](https://medium.com/@tomsoderlund/three-zone-navigation-system-45f20d08bed4).
 - Clear interaction states for buttons etc.
-- Avoid weird classes* as much as possible, just use element names.
 - Lightweight (somewhat).
 - Compatible (somewhat).
 
