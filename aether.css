@@ -392,6 +392,7 @@ hr {
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  gap: 1em;
 }
 
 .flex.column {
@@ -401,19 +402,13 @@ hr {
 .flex > * {
   flex: 1;
   width: 100%;
-  margin-right: 1em;
   min-width: unset;
-}
-.flex > *:last-child {
-  margin-right: unset;
 }
 
 @media only screen and (max-width: 480px) {
   .flex {
     flex-direction: column;
-  }
-  .flex > * {
-    margin-right: unset;
+    gap: 0;
   }
 }
 
