@@ -34,3 +34,7 @@ Demo: https://tomsoderlund.github.io/aether-css/
 ## Import in JavaScript
 
     import '../node_modules/aether-css/dist/aether.min.css'
+
+And use the [“Inter” font](https://rsms.me/inter/):
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
