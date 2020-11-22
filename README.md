@@ -20,6 +20,9 @@ Demo: https://tomsoderlund.github.io/aether-css/
 
 *Exceptions: `.fieldset` (because of `fieldset` flexbox bug), `.tag` (tags/tokens), `.flex` (flexbox container for columns etc).
 
+Changing color theme just by changing `background-color` of `body`:
+
+![Demonstration of Aether CSS color themes](docs/themes.png)
 
 ## Todo
 
