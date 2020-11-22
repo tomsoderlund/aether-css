@@ -188,9 +188,9 @@ button,
   font-weight: normal;
   text-align: center;
 }
-button:focus:not(:disabled),
-.button:focus:not(:disabled) {
-  filter: invert(50%) !important;
+button:focus:not(:disabled):not(:hover),
+.button:focus:not(:disabled):not(:hover) {
+  border: 1px solid rgba(0, 0, 0, 0.42);
 }
 button:hover:not(:disabled),
 .button:hover:not(:disabled) {
@@ -268,16 +268,16 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="
 textarea::placeholder {
   color: rgba(0, 0, 0, 0.26);
 }
-input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):hover:not(:disabled):not(:focus),
-.input:hover:not(:disabled):not(:focus),
-textarea:hover:not(:disabled):not(:focus),
-select:hover:not(:disabled):not(:focus) {
-  border-color: silver;
-}
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):focus,
 .input:focus,
 textarea:focus,
 select:focus {
+  border: 1px solid rgba(0, 0, 0, 0.42);
+}
+input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):hover:not(:disabled):not(:focus),
+.input:hover:not(:disabled):not(:focus),
+textarea:hover:not(:disabled):not(:focus),
+select:hover:not(:disabled):not(:focus) {
   border: 1px solid rgba(0, 0, 0, 0.42);
 }
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):read-only,
