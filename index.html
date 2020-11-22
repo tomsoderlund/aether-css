@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Aether CSS</title>
+  <meta name="description" content="aether-css"/>
+  <meta charSet="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta property="og:title" content="Aether CSS"/>
+  <meta property="og:description" content="aether-css"/>
+  <meta property="og:locale" content="en_US"/>
+  <link rel="shortcut icon" type="image/x-icon" href="./icon.png"/>
+  <link rel="stylesheet" href="./aether.css"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--   
+  <header>Header – Aether CSS</header>
+ -->
+
+  <main>
+    <h1>Aether CSS (Heading 1)</h1>
+
+    <p><a href="https://github.com/tomsoderlund/aether-css" target="_blank" rel="noopener noreferrer">Get the source code</a></p>
+
+    <p>A beautiful golden sun is setting. The sky is on fire. A large neon sign rises into shot. It rests on top of a skyscraper and fills the frame. The building is neither past nor future in design but a bit of both.</p>
+    <p>Slowly we pan downwards revealing the city that spreads below.</p>
+
+    <h2>Heading 2</h2>
+    <p>A glittering conglomeration of elevated transport tubes, smaller square buildings which are merely huge, with, here and there, the comparatively minuscule relics of previous ages of architecture, pavement level awnings suggesting restaurants and shops.</p>
+
+    <h2>Heading 2</h2>
+    <div class="flex">
+      <div>
+        <h3>Heading 3</h3>
+        <p>Transparent tubes carry whizzing transport cages past us. An elevated highway carrying traffic composed primarily of large transport lorries passes through frame. As we descend, the sunlight is blocked out and street lights & neon signs take over as illumination. Eventually we reach the upper levels of a plush shopping precinct.</p>
+      </div>
+      <div>
+        <h3>Heading 3</h3>
+        <p>An elevated highway carrying traffic composed primarily of large transport lorries passes through frame. As we descend, the sunlight is blocked out and street lights & neon signs take over as illumination. Eventually we reach the upper levels of a plush shopping precinct.</p>
+      </div>
+      <div>
+        <h3>Heading 3</h3>
+        <p>As we descend, the sunlight is blocked out and street lights & neon signs take over as illumination. Eventually we reach the upper levels of a plush shopping precinct.</p>
+      </div>
+    </div>
+
+    <hr/>
+
+    <h2>Lists</h2>
+
+    <p>Unordered:</p>
+
+    <ul>
+      <li>Transparent tubes carry whizzing transport cages past us</li>
+      <li>An elevated highway carrying traffic composed primarily of large transport lorries passes through frame</li>
+      <li>As we descend, the sunlight is blocked out and street lights & neon signs take over as illumination</li>
+    </ul>
+
+    <p>Ordered:</p>
+
+    <ol>
+      <li>Transparent tubes carry whizzing transport cages past us</li>
+      <li>An elevated highway carrying traffic composed primarily of large transport lorries passes through frame</li>
+      <li>As we descend, the sunlight is blocked out and street lights & neon signs take over as illumination</li>
+    </ol>
+
+    <hr/>
+
+    <h2>Links</h2>
+    <p>Did you know that <a href="https://github.com/tomsoderlund/aether-css" target="_blank" rel="noopener noreferrer">this is a link</a>?</p>
+
+    <h2>Buttons in a Flexbox</h2>
+    <div class="flex">
+      <button>Primary</button>
+      <button class="secondary">Secondary</button>
+      <button disabled>Disabled</button>
+    </div>
+
+    <h2>Notifications</h2>
+    <div class="notification color-information-bg">information</div>
+    <div class="notification color-warning-bg">warning</div>
+    <div class="notification color-error-bg">error</div>
+    <div class="notification color-success-bg">success</div>
+
+    <h2>Forms</h2>
+    <form>
+      <div class="fieldset">
+        <label for="textField">Placeholder:</label>
+        <input id="textField" type="text" autocomplete="name" placeholder="Your name" required />
+      </div>
+
+      <div class="fieldset">
+        <label for="textField">Text:</label>
+        <input id="textField" type="text" autocomplete="name" value="Your name" />
+      </div>
+
+      <div class="fieldset">
+        <label for="readonlyField">Read only:</label>
+        <input id="readonlyField" type="text" value="Read only" readonly />
+      </div>
+
+      <div class="fieldset">
+        <label for="disabledField">Disabled:</label>
+        <input id="disabledField" type="text" value="Disabled" disabled />
+      </div>
+
+      <div class="fieldset">
+        <label for="textareaField">Textarea:</label>
+        <textarea id="textareaField" placeholder="Description"></textarea>
+      </div>
+
+      <div class="fieldset">
+        <label for="selectField">Select:</label>
+        <select id="selectField">
+          <option value="sam">Sam Lowry</option>
+          <option value="harry" selected>Harry Tuttle</option>
+          <option value="ida" disabled>Ida Lowry</option>
+        </select>
+      </div>
+
+      <div class="fieldset">
+        <label>Fruit:</label>
+        <div>
+          <span class="radio-wrapper">
+            <input type="radio" name="fruit" id="apple" value="apple" checked>
+            <label for="apple">Apple</label>
+          </span>
+          <span class="radio-wrapper">
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">Banana</label>
+          </span>
+        </div>
+      </div>
+
+      <div class="fieldset">
+        <label>Vegetables:</label>
+        <div>
+          <span class="checkbox-wrapper">
+            <input type="checkbox" name="avocado" id="avocado" value="Avocado" checked>
+            <label for="avocado">Avocado</label>
+          </span>
+          <span class="checkbox-wrapper">
+            <input type="checkbox" name="broccoli" id="broccoli" value="Broccoli">
+            <label for="broccoli">Broccoli</label>
+          </span>
+        </div>
+      </div>
+
+      <div class="fieldset">
+        <span></span>
+        <button type="submit">Submit</button>
+      </div>    
+    </form>
+
+    <h2>Tags</h2>
+    <div class="tags">
+      <span class="tag">Apple</span>
+      <span class="tag">Banana</span>
+      <span class="tag">Citrus</span>
+      <span class="tag new">New</span>
+      <span class="tag selectable">Selectable</span>
+      <span class="tag selected">Selected</span>
+      <span class="tag">With x-button <span class="x-button"></span></span>
+    </div>
+
+    <h2>All Input Types</h2>
+    <div class="fieldset"><label>checkbox:</label><input type="checkbox"></div>
+    <div class="fieldset"><label>radio:</label><input type="radio"></div>
+    <div class="fieldset"><label>range:</label><input type="range"></div>
+    <div class="fieldset"><label>color:</label><input type="color"></div>
+
+    <div class="fieldset"><label>text:</label><input type="text"></div>
+    <div class="fieldset"><label>number:</label><input type="number"></div>
+    <div class="fieldset"><label>password:</label><input type="password"></div>
+    <div class="fieldset"><label>search:</label><input type="search"></div>
+
+    <div class="fieldset"><label>tel:</label><input type="tel"></div>
+    <div class="fieldset"><label>email:</label><input type="email"></div>
+    <div class="fieldset"><label>url:</label><input type="url"></div>
+
+    <div class="fieldset"><label>file:</label><input type="file"></div>
+    <div class="fieldset"><label>image:</label><input type="image"></div>
+
+    <div class="fieldset"><label>datetime-local:</label><input type="datetime-local"></div>
+    <div class="fieldset"><label>date:</label><input type="date"></div>
+    <div class="fieldset"><label>time:</label><input type="time"></div>
+    <div class="fieldset"><label>month:</label><input type="month"></div>
+    <div class="fieldset"><label>week:</label><input type="week"></div>
+
+    <div class="fieldset"><label>hidden:</label><input type="hidden"></div>
+
+    <div class="fieldset"><label>button:</label><input type="button"></div>
+    <div class="fieldset"><label>reset:</label><input type="reset"></div>
+    <div class="fieldset"><label>submit:</label><input type="submit"></div>
+
+  </main>
+<!-- 
+  <footer>Footer – Made by @tomsoderlund</footer>
+-->
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "aether-css",
+  "version": "0.1.0",
+  "description": "Aether CSS framework",
+  "author": "Tom Söderlund <tom@tomsoderlund.com>",
+  "main": "aether.css",
+  "license": "MIT",
+  "files": [
+    "aether.css",
+    "icons/"
+  ]
+}
