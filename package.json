@@ -1,7 +1,7 @@
 {
   "name": "aether-css-framework",
   "description": "Simple, Interactive, Fun, Beautiful CSS system",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Tom Söderlund <tom@tomsoderlund.com>",
   "main": "aether.css",
   "license": "MIT",
@@ -9,9 +9,9 @@
     "dist/"
   ],
   "scripts": {
-    "prepare": "rm -rf dist && mkdir -p dist/icons && css-minify -f aether.css && mv css-dist/* dist/ && cp icons/* dist/icons/"
+    "prepare": "rm -rf dist && mkdir -p dist/icons && uglifycss aether.css > dist/aether.min.css && cp icons/* dist/icons/"
   },
   "devDependencies": {
-    "css-minify": "^1.1.0"
+    "uglifycss": "^0.0.29"
   }
 }
