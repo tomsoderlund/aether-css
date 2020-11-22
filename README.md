@@ -4,7 +4,9 @@
 
 Demo: https://tomsoderlund.github.io/aether-css/
 
-Design goals:
+![Screenshot of Aether CSS](docs/demo.png)
+
+## Design goals
 
 - A good starting point for any web/mobile/PWA project.
 - Easy to customize (“themeable”). Examples:
