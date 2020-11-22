@@ -9,7 +9,7 @@ Demo: https://tomsoderlund.github.io/aether-css/
 ## Design goals
 
 - A good starting point for any web/mobile/PWA project.
-- Avoid weird classes* as much as possible, just use element names.
+- Avoid weird classes* as much as possible (just use element names), so you can just drop it into an HTML page.
 - Easy to customize (“themeable”). Examples:
   - Change the color of button, and hover states are automatically updated (they use `filter`).
   - Borders use transparency.
