@@ -218,6 +218,16 @@ button.secondary:not(:disabled) {
   filter: invert(10%);
 }
 
+.no-button {
+  background: none;
+  box-shadow: none;
+  width: unset;
+  min-width: unset;
+  color: inherit;
+  padding: 0;
+  margin: 0;
+}
+
 /* fieldset flexbox bug */
 fieldset,
 .fieldset {
@@ -409,4 +419,32 @@ hr {
 .notification {
   padding: 1em;
   border-radius: 2px;
+}
+
+.circle-menu-button {
+  box-shadow: none;
+  width: unset;
+  min-width: unset;
+  padding: 0;
+  margin: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-menu-button.right {
+  left: unset;
+  right: 1rem;
+}
+
+.circle-menu-button.bottom {
+  top: unset;
+  bottom: 1rem;
 }
