@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="transition: all 1s;">
 
 <!--   
   <header>Header – Aether CSS</header>
@@ -23,7 +23,23 @@
   <main>
     <h1>Aether CSS</h1>
 
-    <p><a href="https://github.com/tomsoderlund/aether-css" target="_blank" rel="noopener noreferrer">Get the source code</a></p>
+    <p>
+      <a onClick="changeBackground()">Change background</a>
+      |
+      <a href="https://github.com/tomsoderlund/aether-css" target="_blank" rel="noopener noreferrer">Get the source code</a>
+    </p>
+
+    <h2>Buttons in a Flexbox</h2>
+    <div class="flex">
+      <button>Primary</button>
+      <button class="secondary">Secondary</button>
+      <button disabled>Disabled</button>
+    </div>
+
+    <h2>Links</h2>
+    <p>Did you know that <a href="https://github.com/tomsoderlund/aether-css" target="_blank" rel="noopener noreferrer">this is a link</a>?</p>
+
+    <hr/>
 
     <p>A beautiful golden sun is setting. The sky is on fire. A large neon sign rises into shot. It rests on top of a skyscraper and fills the frame. The building is neither past nor future in design but a bit of both.</p>
     <p>Slowly we pan downwards revealing the city that spreads below.</p>
@@ -71,16 +87,6 @@
     </ol>
 
     <hr/>
-
-    <h2>Links</h2>
-    <p>Did you know that <a href="https://github.com/tomsoderlund/aether-css" target="_blank" rel="noopener noreferrer">this is a link</a>?</p>
-
-    <h2>Buttons in a Flexbox</h2>
-    <div class="flex">
-      <button>Primary</button>
-      <button class="secondary">Secondary</button>
-      <button disabled>Disabled</button>
-    </div>
 
     <h2>Notifications</h2>
     <div class="notification color-information-bg">information</div>
@@ -234,4 +240,15 @@
   <footer>Footer – Made by @tomsoderlund</footer>
 -->
 </body>
+
+<script>
+  const COLORS = ['', 'darkturquoise', 'salmon', 'rebeccapurple']
+
+  function changeBackground () {
+    const currentColor = document.querySelector('body').style.backgroundColor
+    const nextColor = COLORS[(COLORS.indexOf(currentColor) + 1) % COLORS.length]
+    document.querySelector('body').style.backgroundColor = nextColor
+  }
+</script>
+
 </html>

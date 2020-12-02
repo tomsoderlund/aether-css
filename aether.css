@@ -144,8 +144,8 @@ button,
 .button {
   position: relative;
   color: white;
-  background-color: rgba(0, 0, 0, 0.31);
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   display: inline-block;
   cursor: pointer;
   user-select: none;
@@ -158,11 +158,11 @@ button,
 }
 button:focus:not(:disabled):not(:hover),
 .button:focus:not(:disabled):not(:hover) {
-  border: 1px solid rgba(0, 0, 0, 0.42);
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 button:hover:not(:disabled),
 .button:hover:not(:disabled) {
-  filter: invert(50%) !important;
+  opacity: 0.7;
 }
 .button:hover:not(:disabled) {
   border-bottom: none;
@@ -170,20 +170,19 @@ button:hover:not(:disabled),
 button:hover:active,
 .button:hover:active {
   transition: all 0.05s;
-  filter: invert(70%) !important;
+  opacity: 0.5;
 }
 button:disabled,
 .button:disabled {
   cursor: initial;
-  filter: grayscale(100%);
-  opacity: 0.5;
+  opacity: 0.3;
 }
 a.button {
   text-decoration: none;
 }
 
 button.secondary:not(:disabled) {
-  filter: invert(10%);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .no-button {
@@ -209,7 +208,7 @@ fieldset,
 
 fieldset label,
 .fieldset label {
-  color: rgba(0, 0, 0, 0.42);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 0.75em;
   text-transform: uppercase;
   margin-bottom: 0.625em;
@@ -228,36 +227,36 @@ select {
   resize: none;
   color: inherit;
   background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.26);
+  border: 1px solid rgba(0, 0, 0, 0.25);
   box-shadow: none;
   font-weight: inherit;
 }
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"])::placeholder,
 textarea::placeholder {
-  color: rgba(0, 0, 0, 0.26);
+  color: rgba(0, 0, 0, 0.25);
 }
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):focus,
 .input:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid rgba(0, 0, 0, 0.42);
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):hover:not(:disabled):not(:focus),
 .input:hover:not(:disabled):not(:focus),
 textarea:hover:not(:disabled):not(:focus),
 select:hover:not(:disabled):not(:focus) {
-  border: 1px solid rgba(0, 0, 0, 0.42);
+  border: 1px solid rgba(0, 0, 0, 0.4);
 }
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):read-only,
 textarea:read-only {
-  color: rgba(0, 0, 0, 0.42);  
+  color: rgba(0, 0, 0, 0.4);  
 }
 input:not([type="radio"]):not([type="checkbox"]):not([type="color"]):not([type="range"]):disabled,
 .input:disabled,
 textarea:disabled,
 select:disabled {
   background-color: transparent;
-  color: rgba(0, 0, 0, 0.42);  
+  color: rgba(0, 0, 0, 0.4);  
 }
 
 /* Input & Button shared */
