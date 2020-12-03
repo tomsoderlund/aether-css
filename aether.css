@@ -283,7 +283,6 @@ select:disabled {
 }
 
 /* Input & Button shared */
-
 button,
 .button,
 input:not([type="radio"]):not([type="checkbox"]),
@@ -298,6 +297,15 @@ select {
   padding: 1em;
   min-width: 20em;
   transition: all 0.1s;
+  margin-right: 0.3em;
+}
+button:last-child,
+.button:last-child,
+input:not([type="radio"]):not([type="checkbox"]):last-child,
+.input:last-child,
+textarea:last-child,
+select:last-child {
+  margin-right: unset;
 }
 
 @media only screen and (max-width: 480px) {
@@ -308,7 +316,7 @@ select {
   textarea,
   select {
     width: 100%;
-    margin: 0.2em 0;
+    margin: 0.3em 0;
   }
 }
 
