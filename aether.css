@@ -124,6 +124,27 @@ h1, h2, h3, h4, h5 {
   font-weight: 500;
 }
 
+blockquote,
+code {
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+blockquote {
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+code {
+  display: block;
+  white-space: pre-wrap;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-size: 0.9em;
+}
+
 /* ----- Elements ----- */
 
 /* Links */

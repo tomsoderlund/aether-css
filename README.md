@@ -30,9 +30,9 @@ Changing color theme just by changing `background-color` of `body`:
 
 - [x] Progress button
 - [x] Tags - revise
-- [ ] Checkbox
+- [x] Code block and Block quote
+- [ ] Toggle switch
 - [ ] Range Slider 2D
-- [ ] Code block
 
 
 ## Install
