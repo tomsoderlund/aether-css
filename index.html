@@ -273,10 +273,18 @@ Import in JavaScript
     document.querySelector('body').style.backgroundColor = nextColor
   }
 
-  document.querySelectorAll('.tag').forEach(element => element.addEventListener('click', function (event) {
-    console.log('Click tag', this)
-    this.className = 'tag selected'
-  }))
+  function toggleClass (event, className) {
+    const { target } = event
+    const classStr = ' ' + className
+     target.className =  target.className.includes(classStr) ?  target.className.replace(classStr, '') :  target.className + classStr
+  }
+
+  document.querySelectorAll('.tag').forEach(
+    element => element.addEventListener(
+      'click',
+      event => toggleClass(event, 'selected')
+    )
+  )
 </script>
 
 </html>
