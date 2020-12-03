@@ -6,15 +6,16 @@ Demo: https://tomsoderlund.github.io/aether-css/
 
 ![Screenshot of Aether CSS](docs/demo.png)
 
+
 ## Design goals
 
-- A good starting point for any web/mobile/PWA project.
-- Avoid weird classes* as much as possible (just use element names), so you can just drop it into an HTML page.
-- Easy to customize (“themeable”). Examples:
-  - Change the color of button, and hover states are automatically updated (they use `filter`).
-  - Borders use transparency.
-- Use the [Three Zone Navigation System](https://medium.com/@tomsoderlund/three-zone-navigation-system-45f20d08bed4).
-- Clear interaction states for buttons etc.
+- A **good starting point** for any web/mobile/PWA project.
+- **Plug-and-play.** Just drop the CSS file into your HTML page. Avoid weird classes* as much as possible, just use element names.
+- **Easy to customize** (“themeable”). Examples:
+  - Elements use opacity so you can customize the background color (click “Change background” in the [demo page](https://tomsoderlund.github.io/aether-css/)).
+  - Change the color of button, and hover states are automatically updated (they use `opacity`/`filter`).
+- Use the [**Three Zone Navigation System**](https://medium.com/@tomsoderlund/three-zone-navigation-system-45f20d08bed4).
+- **Clear interaction states** for buttons etc.
 - Lightweight (somewhat).
 - Compatible (somewhat).
 
@@ -24,9 +25,14 @@ Changing color theme just by changing `background-color` of `body`:
 
 ![Demonstration of Aether CSS color themes](docs/themes.png)
 
+
 ## Todo
 
-- Code
+- [ ] Progress button
+- [ ] Checkbox
+- [ ] Range Slider 2D
+- [ ] Tags - revise
+- [ ] Code block
 
 
 ## Install
