@@ -210,9 +210,12 @@ button.secondary:not(:disabled),
 
 .no-button {
   background: none;
+  border: none;
   box-shadow: none;
   width: unset;
   min-width: unset;
+  height: unset;
+  min-height: unset;
   color: inherit;
   padding: 0;
   margin: 0;
