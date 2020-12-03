@@ -256,6 +256,11 @@
     const nextColor = COLORS[(COLORS.indexOf(currentColor) + 1) % COLORS.length]
     document.querySelector('body').style.backgroundColor = nextColor
   }
+
+  document.querySelectorAll('.tag').forEach(element => element.addEventListener('click', function (event) {
+    console.log('Click tag', this)
+    this.className = 'tag selected'
+  }))
 </script>
 
 </html>
