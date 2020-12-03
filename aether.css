@@ -298,6 +298,7 @@ select {
   min-width: 20em;
   transition: all 0.1s;
   margin-right: 0.3em;
+  margin-bottom: 0.3em;
 }
 button:last-child,
 .button:last-child,
@@ -306,6 +307,7 @@ input:not([type="radio"]):not([type="checkbox"]):last-child,
 textarea:last-child,
 select:last-child {
   margin-right: unset;
+  margin-bottom: unset;
 }
 
 @media only screen and (max-width: 480px) {

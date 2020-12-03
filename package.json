@@ -1,7 +1,7 @@
 {
   "name": "aether-css-framework",
   "description": "Simple, Interactive, Fun, Beautiful CSS system",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "author": "Tom Söderlund <tom@tomsoderlund.com>",
   "main": "aether.css",
   "license": "MIT",
