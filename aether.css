@@ -405,6 +405,56 @@ hr {
   background: rgba(0, 0, 0, 0.2);
 }
 
+/* ----- Toggle Switch ----- */
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+}
+.toggle-switch > input {
+  display: none;
+}
+.toggle-switch > label {
+  display: block;
+  width: 3em;
+  height: 1.65em;
+  text-indent: -150%;
+  clip: rect(0 0 0 0);
+  color: transparent;
+  user-select: none;
+}
+.toggle-switch > label:before,
+.toggle-switch > label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  cursor: pointer;
+}
+/* Container */
+.toggle-switch > label:before {
+  width: 3em;
+  height: 1.65em;
+  border-radius: 1.7em;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.1s ease;
+}
+/* Handle */
+.toggle-switch > label:after {
+  top: 0.1em;
+  left: 0.1em;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 1.5em;
+  background-color: white;
+  transition: left 0.1s ease;
+}
+.toggle-switch > input:checked + label:before {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.toggle-switch > input:checked + label:after {
+  left: calc(100% - (3em / 2) - 0.1em);
+}
+
 /* ----- Custom elements ----- */
 
 /* Flexbox */
