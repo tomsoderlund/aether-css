@@ -490,5 +490,6 @@ hr {
   }
 }
 .progress-button.done {
+  animation: none;
   background-position-x: -35%;
 }

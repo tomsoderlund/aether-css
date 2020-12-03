@@ -112,7 +112,7 @@
     </form>
 
     <h2>Progress Button</h2>
-    <button class="progress-button in-progress" onClick="this.className = 'progress-button done'">Progress Button</button>
+    <button class="progress-button in-progress" onClick="toggleClass(this, 'done')">Progress Button</button>
 
     <h2>Table</h2>
     <table>
@@ -273,8 +273,7 @@ Import in JavaScript
     document.querySelector('body').style.backgroundColor = nextColor
   }
 
-  function toggleClass (event, className) {
-    const { target } = event
+  function toggleClass (target, className) {
     const classStr = ' ' + className
      target.className =  target.className.includes(classStr) ?  target.className.replace(classStr, '') :  target.className + classStr
   }
@@ -282,7 +281,7 @@ Import in JavaScript
   document.querySelectorAll('.tag').forEach(
     element => element.addEventListener(
       'click',
-      event => toggleClass(event, 'selected')
+      event => toggleClass(event.target, 'selected')
     )
   )
 </script>
