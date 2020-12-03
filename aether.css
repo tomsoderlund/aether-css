@@ -181,7 +181,8 @@ a.button {
   text-decoration: none;
 }
 
-button.secondary:not(:disabled) {
+button.secondary:not(:disabled),
+.circle-menu-button:not(:disabled) {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -431,8 +432,8 @@ hr {
   height: 2.5rem;
   border-radius: 2.5rem;
   position: fixed;
-  left: 1rem;
-  top: 1rem;
+  left: 0.5rem;
+  top: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -440,9 +441,9 @@ hr {
 }
 .circle-menu-button.right {
   left: unset;
-  right: 1rem;
+  right: 0.5rem;
 }
 .circle-menu-button.bottom {
   top: unset;
-  bottom: 1rem;
+  bottom: 0.5rem;
 }
