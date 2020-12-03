@@ -28,7 +28,7 @@ Changing color theme just by changing `background-color` of `body`:
 
 ## Todo
 
-- [ ] Progress button
+- [x] Progress button
 - [ ] Checkbox
 - [ ] Range Slider 2D
 - [ ] Tags - revise
