@@ -510,6 +510,10 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .circle-menu-button.right {
   left: unset;
