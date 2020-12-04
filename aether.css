@@ -517,6 +517,7 @@ hr {
   height: 2.5rem;
   border-radius: 2.5rem;
   position: fixed;
+  z-index: 1000;
   left: 0.5rem;
   top: 0.5rem;
   display: flex;
