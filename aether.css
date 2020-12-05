@@ -543,7 +543,7 @@ hr {
   bottom: 0.5rem;
 }
 
-.progress-button {
+.progress-animation {
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 45%,
@@ -552,7 +552,7 @@ hr {
   background-size: 400% 100%;
   background-position: 0% 50%;
 }
-.progress-button.in-progress {
+.progress-animation.in-progress {
   animation: animation-progress 4s 0s linear infinite;
 }
 @keyframes animation-progress {
@@ -563,12 +563,12 @@ hr {
     background-position-x: -35%;
   }
 }
-.progress-button.done {
+.progress-animation.done {
   animation: none;
   background-position-x: -35%;
 }
 
-.pulsate {
+.pulsate-animation {
   animation: pulsate 2s 0s ease-in-out infinite;
 }
 
