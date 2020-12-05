@@ -567,3 +567,19 @@ hr {
   animation: none;
   background-position-x: -35%;
 }
+
+.pulsate {
+  animation: pulsate 2s 0s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
