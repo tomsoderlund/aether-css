@@ -247,7 +247,7 @@ fieldset label,
 }
 
 legend {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* Input and Dropdown Menu */
@@ -534,6 +534,7 @@ hr {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  font-weight: 500;
 }
 .circle-menu-button.right {
   left: unset;
