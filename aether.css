@@ -209,6 +209,7 @@ a.button {
 }
 
 button.secondary:not(:disabled),
+.button.secondary:not(:disabled),
 .circle-menu-button:not(:disabled) {
   background-color: rgba(0, 0, 0, 0.6);
 }
