@@ -33,6 +33,7 @@ Changing color theme just by changing `background-color` of `body`:
 - [x] Code block and Block quote
 - [x] Toggle switch
 - [ ] Range Slider 2D
+- [ ] Hamburger menu
 
 
 ## Install
@@ -47,3 +48,8 @@ Changing color theme just by changing `background-color` of `body`:
 And use the [“Inter” font](https://rsms.me/inter/):
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+## Update NPM
+
+    yarn publish
