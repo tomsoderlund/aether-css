@@ -113,6 +113,10 @@ p {
   line-height: 1.4em;
 }
 
+strong, bold {
+  font-weight: 500;
+}
+
 /* List */
 ol {
   list-style-type: decimal;
