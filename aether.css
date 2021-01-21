@@ -83,6 +83,7 @@ footer {
   overflow: hidden;
   white-space: pre;
   text-overflow: ellipsis;
+  white-space: break-spaces;
   display: flex;
   flex-direction: row;
   justify-content: center;
