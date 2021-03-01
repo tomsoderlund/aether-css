@@ -216,6 +216,13 @@ button.secondary:not(:disabled),
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.autosize {
+  width: unset;
+  min-width: unset;
+  height: unset;
+  min-height: unset;
+}
+
 .no-button {
   background: none;
   border: none;
