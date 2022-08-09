@@ -236,6 +236,10 @@ button.secondary:not(:disabled),
   margin: 0;
 }
 
+.no-button:focus:not(:disabled):not(:hover) {
+  border: none;
+}
+
 /* fieldset flexbox bug */
 fieldset,
 .fieldset {
