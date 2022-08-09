@@ -53,3 +53,5 @@ And use the [“Inter” font](https://rsms.me/inter/):
 ## Update NPM
 
     yarn publish
+
+(Will run `yarn prepare` automatically, which builds the `/dist` folder)
