@@ -43,7 +43,7 @@ Changing color theme just by changing `background-color` of `body`:
 
 ## Import in JavaScript
 
-    import '../node_modules/aether-css-framework/dist/aether.min.css'
+    import 'aether-css-framework/dist/aether.min.css'
 
 And use the [“Inter” font](https://rsms.me/inter/):
 
