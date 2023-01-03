@@ -170,6 +170,8 @@ pre code {
   overflow-x: auto;
   max-width: 100%;
   min-width: 6em;
+  user-select: all;
+  cursor: text;
 }
 
 /* ----- Elements ----- */
