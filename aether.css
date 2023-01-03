@@ -410,6 +410,23 @@ input[type="checkbox"]:first-child {
   margin-bottom: inherit;
 }
 
+input[type=color] {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0 !important;
+  min-width: unset !important;
+  margin-top: -0.25em;
+  height: 3rem;
+  width: 3rem;
+}
+input[type=color]::-webkit-color-swatch {
+  height: 100%;
+  aspect-ratio: 1;
+  border-radius: 0.25rem;
+  border: 1px solid rgba(0,0,0,0.25);
+}
+
 /* ----- Other ----- */
 
 /* Tag */
