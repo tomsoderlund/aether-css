@@ -20,8 +20,9 @@ html {
 .color-action-primary-bg { background-color: #00CED1; }
 .color-action-primary-fg { color: #00CED1; }
 .color-action-secondary-bg { background-color: #663399; }
-.color-action-secondary-fg { color: #663399; }
-.color-header-bg { background-color: #663399; }
+.color-action-secondary-fg { color: #DBDBDB; }
+.color-header-bg { background-color: #DBDBDB; }
+.color-header-fg { background-color: white; }
 
 .color-information-bg { background-color: rgba(255, 255, 255, 0.96); }
 .color-warning-bg { background-color: #FFFBE6; }
@@ -72,7 +73,7 @@ main h1:first-child {
 /* Header */
 header,
 footer {
-  background-color: #433998;
+  background-color: #DBDBDB;
   color: white;
   position: fixed;
   z-index: 1000;
