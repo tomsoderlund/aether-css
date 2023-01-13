@@ -15,24 +15,24 @@ html {
 
 /* ----- Colors ----- */
 
-.color-background-bg { background-color: #F5F5F5; }
+.color-background-bg { background-color: #f5f5f5; }
 .color-text-fg { color: rgba(0, 0, 0, 0.85); }
-.color-action-primary-bg { background-color: #00CED1; }
-.color-action-primary-fg { color: #00CED1; }
+.color-action-primary-bg { background-color: #00ced1; }
+.color-action-primary-fg { color: #00ced1; }
 .color-action-secondary-bg { background-color: #663399; }
-.color-action-secondary-fg { color: #DBDBDB; }
-.color-header-bg { background-color: #DBDBDB; }
+.color-action-secondary-fg { color: #dbdbdb; }
+.color-header-bg { background-color: #dbdbdb; }
 .color-header-fg { background-color: white; }
 
 .color-information-bg { background-color: rgba(255, 255, 255, 0.96); }
-.color-warning-bg { background-color: #FFFBE6; }
-.color-error-bg { background-color: #ED7070; color: white; }
-.color-success-bg { background-color: #D6FFC8; }
+.color-warning-bg { background-color: #fffbe6; }
+.color-error-bg { background-color: #ed7070; color: white; }
+.color-success-bg { background-color: #d6ffc8; }
 
 /* ----- Layout ----- */
 
 body {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -73,7 +73,7 @@ main h1:first-child {
 /* Header */
 header,
 footer {
-  background-color: #DBDBDB;
+  background-color: #dbdbdb;
   color: white;
   position: fixed;
   z-index: 1000;
