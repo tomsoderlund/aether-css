@@ -248,9 +248,9 @@
     </div>
 
     <h2>All Regular Input Types</h2>
-    <div class="fieldset"><label>range:</label><input type="range"></div>
     <div class="fieldset"><label>checkbox:</label><input type="checkbox"></div>
     <div class="fieldset"><label>radio:</label><input type="radio"></div>
+    <div class="fieldset"><label>range:</label><input type="range"></div>
     <div class="fieldset"><label>color:</label><input type="color"></div>
 
     <div class="fieldset"><label>text:</label><input type="text"></div>
@@ -262,9 +262,6 @@
     <div class="fieldset"><label>email:</label><input type="email"></div>
     <div class="fieldset"><label>url:</label><input type="url"></div>
 
-    <div class="fieldset"><label>file:</label><input type="file"></div>
-    <div class="fieldset"><label>image:</label><input type="image"></div>
-
     <div class="fieldset"><label>datetime-local:</label><input type="datetime-local"></div>
     <div class="fieldset"><label>date:</label><input type="date"></div>
     <div class="fieldset"><label>time:</label><input type="time"></div>
@@ -273,7 +270,10 @@
 
     <div class="fieldset"><label>hidden:</label><input type="hidden"></div>
 
-    <div class="fieldset"><label>button:</label><input type="button"></div>
+    <div class="fieldset"><label>file:</label><input type="file"></div>
+    <div class="fieldset"><label>image:</label><input type="image" src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Like_button.png" style="width: 3em;"></div>
+
+    <div class="fieldset"><label>button:</label><input type="button" value="Button"></div>
     <div class="fieldset"><label>reset:</label><input type="reset"></div>
     <div class="fieldset"><label>submit:</label><input type="submit"></div>
 
@@ -300,7 +300,7 @@
 
   function toggleClass (target, className) {
     const classStr = ' ' + className
-     target.className =  target.className.includes(classStr) ?  target.className.replace(classStr, '') :  target.className + classStr
+     target.className =  target.className.includes(classStr) ?  target.className.replace(classStr, '') :  target.className + classStr
   }
 
   document.querySelectorAll('.tag').forEach(
